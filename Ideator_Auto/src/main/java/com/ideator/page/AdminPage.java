@@ -40,6 +40,7 @@ public class AdminPage {
 
 
 	// Click Admin Button
+       //Constructor
 	public void ClickAdmin() {
 		avtar.click();
 		List<WebElement> elementList = driver.findElements(By.cssSelector(".user-nav__link"));
