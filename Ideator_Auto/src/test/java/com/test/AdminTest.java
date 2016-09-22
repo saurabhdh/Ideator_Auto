@@ -35,7 +35,7 @@ public class AdminTest {
 		driver.manage().window().maximize();
 	}
 
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	//Add user to community and verify that on mailinator site.
 	public void addUserCommunity() throws InterruptedException {
 		LoginPage loginPage = new LoginPage(driver);
